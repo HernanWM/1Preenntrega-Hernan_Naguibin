@@ -3,7 +3,7 @@ const valorImpuesto = 1.5; //impuesto ficticio
 
  //Funcion para ingresar cantidad a prestar
  const cantidadPrestamo = () =>{
-    let cantidadPrestamo = Number(prompt("ingresar cantidad a prestar:"));
+    let cantidadPrestamo = Number(prompt("ingresar cantidad a prestar:")); 
     alert("La cantidad es = " + cantidadPrestamo)
     return cantidadPrestamo
 }
